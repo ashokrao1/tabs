@@ -1,0 +1,51 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.hotel-list{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.hotel-list > li{
+  color:#76b0dc;
+  font-weight:400;
+  font-size:12px;
+  margin:0;
+  display:inline-block;
+  width:100%;
+  border-bottom:solid 1px #76b0dc;
+  padding:5px 5px 5px 15px;
+}
+.hotel-list > li>.left{
+  float:left;
+}
+.hotel-list > li>.right{
+  float:right;
+}
+.star:before{
+  content:' ';
+}
+.star{
+ color:red;
+  font-size:10px;
+  display:inline-block;
+  padding-left:2px;
+}
+.price{
+  color:#118c18;
+}
+
+.dom{
+  margin-bottom: 25px
+}
